@@ -39,8 +39,8 @@ function gotPoses(results)
 
 function draw()
 {
-    background('#F79191');
-    fill('#4287f5');
-    stroke('#245cb5');
-    square(noseX, noseY, diffrence);
+    background('#30b6e3');
+    fill('#ffffff');
+    textSize(diffrence);
+    text("Hello World", noseX, noseY);
 }
